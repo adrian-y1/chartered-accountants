@@ -1,0 +1,299 @@
+/* ============================================
+   CHARTERED ACCOUNTANTS - DESIGN VARIABLES
+   Professional, Clean & Maintainable Design
+   ============================================ */
+
+/* ============================================
+   PRIMARY BRAND COLORS - Professional Blue Theme
+   ============================================ */
+$primary-blue: #1e3a8a;           /* Deep Professional Blue */
+$primary-blue-light: #3b82f6;     /* Bright Blue */
+$primary-blue-dark: #1e40af;      /* Dark Blue */
+$primary-blue-darker: #1e293b;    /* Very Dark Blue */
+
+/* ============================================
+   ACCENT COLORS - Eye-catching highlights
+   ============================================ */
+$accent-gold: #f59e0b;            /* Vibrant Gold */
+$accent-gold-light: #fbbf24;      /* Light Gold */
+$accent-gold-dark: #d97706;        /* Dark Gold */
+
+$accent-teal: #14b8a6;            /* Fresh Teal */
+$accent-teal-light: #5eead4;      /* Light Teal */
+$accent-teal-dark: #0f766e;       /* Deep Teal */
+
+$accent-green: #059669;           /* Success Green */
+$accent-red: #dc2626;             /* Error Red */
+
+/* ============================================
+   NEUTRAL COLORS - Clean & Professional
+   ============================================ */
+$white: #ffffff;
+$light-gray: #f8fafc;
+$gray-100: #f1f5f9;
+$gray-200: #e2e8f0;
+$gray-300: #cbd5e1;
+$gray-400: #94a3b8;
+$gray-500: #64748b;
+$gray-600: #475569;
+$gray-700: #334155;
+$gray-800: #1e293b;
+$gray-900: #0f172a;
+$black: #000000;
+
+/* ============================================
+   GRADIENTS - Modern & Eye-catching
+   ============================================ */
+$gradient-primary: linear-gradient(135deg, $primary-blue 0%, $primary-blue-light 100%);
+$gradient-gold: linear-gradient(135deg, $accent-gold 0%, $accent-gold-dark 100%);
+$gradient-teal: linear-gradient(135deg, $accent-teal 0%, $accent-teal-dark 100%);
+$gradient-hero: linear-gradient(135deg, $light-gray 0%, $white 50%, $gray-100 100%);
+$gradient-navbar: linear-gradient(45deg, $primary-blue 0%, $primary-blue-dark 100%);
+$gradient-footer: linear-gradient(135deg, $gray-800 0%, $gray-900 100%);
+
+/* ============================================
+   SHADOWS - Depth & Professional Look
+   ============================================ */
+$shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+$shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.08);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+/* Glow Effects */
+$shadow-glow-blue: 0 0 20px rgba(59, 130, 246, 0.3);
+$shadow-glow-gold: 0 0 30px rgba(245, 158, 11, 0.4);
+$shadow-glow-teal: 0 0 25px rgba(20, 184, 166, 0.3);
+
+/* ============================================
+   SPACING - Consistent & Scalable
+   ============================================ */
+$spacing-xs: 0.25rem;    /* 4px */
+$spacing-sm: 0.5rem;     /* 8px */
+$spacing-md: 1rem;       /* 16px */
+$spacing-lg: 1.5rem;     /* 24px */
+$spacing-xl: 2rem;       /* 32px */
+$spacing-2xl: 3rem;     /* 48px */
+$spacing-3xl: 4rem;      /* 64px */
+$spacing-4xl: 6rem;      /* 96px */
+$spacing-5xl: 8rem;      /* 128px */
+
+/* ============================================
+   TYPOGRAPHY - Professional & Readable
+   ============================================ */
+$font-primary: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+$font-heading: 'Poppins', 'Inter', sans-serif;
+$font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+/* Font Weights */
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+$font-weight-black: 900;
+
+/* Font Sizes */
+$font-size-xs: 0.75rem;      /* 12px */
+$font-size-sm: 0.875rem;     /* 14px */
+$font-size-base: 1rem;       /* 16px */
+$font-size-lg: 1.125rem;     /* 18px */
+$font-size-xl: 1.25rem;      /* 20px */
+$font-size-2xl: 1.5rem;      /* 24px */
+$font-size-3xl: 1.875rem;    /* 30px */
+$font-size-4xl: 2.25rem;     /* 36px */
+$font-size-5xl: 3rem;        /* 48px */
+$font-size-6xl: 3.75rem;     /* 60px */
+
+/* Line Heights */
+$line-height-tight: 1.25;
+$line-height-snug: 1.375;
+$line-height-normal: 1.5;
+$line-height-relaxed: 1.625;
+$line-height-loose: 2;
+
+/* ============================================
+   BORDER RADIUS - Modern & Consistent
+   ============================================ */
+$border-radius-none: 0;
+$border-radius-sm: 0.125rem;     /* 2px */
+$border-radius-md: 0.375rem;     /* 6px */
+$border-radius-lg: 0.5rem;       /* 8px */
+$border-radius-xl: 0.75rem;      /* 12px */
+$border-radius-2xl: 1rem;        /* 16px */
+$border-radius-3xl: 1.5rem;      /* 24px */
+$border-radius-full: 9999px;
+
+/* ============================================
+   TRANSITIONS - Smooth & Professional
+   ============================================ */
+$transition-fast: 0.15s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.5s ease;
+$transition-bounce: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+/* ============================================
+   BREAKPOINTS - Responsive Design
+   ============================================ */
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-2xl: 1400px;
+
+/* ============================================
+   Z-INDEX - Layering System
+   ============================================ */
+$z-dropdown: 1000;
+$z-sticky: 1020;
+$z-fixed: 1030;
+$z-modal-backdrop: 1040;
+$z-modal: 1050;
+$z-popover: 1060;
+$z-tooltip: 1070;
+
+/* ============================================
+   COMPONENT SPECIFIC VARIABLES
+   ============================================ */
+
+/* Navigation */
+$navbar-height: 76px;
+$navbar-height-mobile: 60px;
+
+/* Hero Section */
+$hero-min-height: 100vh;
+$hero-padding-y: $spacing-4xl;
+
+/* Cards */
+$card-border-width: 2px;
+$card-border-radius: $border-radius-xl;
+$card-padding: $spacing-xl;
+
+/* Buttons */
+$btn-border-radius: $border-radius-lg;
+$btn-padding-y: $spacing-md;
+$btn-padding-x: $spacing-xl;
+
+/* Forms */
+$form-border-radius: $border-radius-lg;
+$form-border-width: 2px;
+$form-padding-y: $spacing-md;
+$form-padding-x: $spacing-lg;
+
+/* ============================================
+   ANIMATION DURATIONS
+   ============================================ */
+$animation-duration-fast: 0.2s;
+$animation-duration-normal: 0.3s;
+$animation-duration-slow: 0.5s;
+$animation-duration-slower: 0.8s;
+
+/* ============================================
+   OPACITY VALUES
+   ============================================ */
+$opacity-0: 0;
+$opacity-25: 0.25;
+$opacity-50: 0.5;
+$opacity-75: 0.75;
+$opacity-100: 1;
+
+/* ============================================
+   BACKDROP FILTER
+   ============================================ */
+$backdrop-blur-sm: blur(4px);
+$backdrop-blur-md: blur(8px);
+$backdrop-blur-lg: blur(12px);
+$backdrop-blur-xl: blur(16px);
+
+/* ============================================
+   CSS CUSTOM PROPERTIES (CSS Variables)
+   ============================================ */
+:root {
+  /* Colors */
+  --color-primary: #{$primary-blue};
+  --color-primary-light: #{$primary-blue-light};
+  --color-primary-dark: #{$primary-blue-dark};
+  --color-primary-darker: #{$primary-blue-darker};
+  
+  --color-accent-gold: #{$accent-gold};
+  --color-accent-gold-light: #{$accent-gold-light};
+  --color-accent-gold-dark: #{$accent-gold-dark};
+  
+  --color-accent-teal: #{$accent-teal};
+  --color-accent-teal-light: #{$accent-teal-light};
+  --color-accent-teal-dark: #{$accent-teal-dark};
+  
+  --color-white: #{$white};
+  --color-light: #{$light-gray};
+  --color-gray-100: #{$gray-100};
+  --color-gray-200: #{$gray-200};
+  --color-gray-300: #{$gray-300};
+  --color-gray-400: #{$gray-400};
+  --color-gray-500: #{$gray-500};
+  --color-gray-600: #{$gray-600};
+  --color-gray-700: #{$gray-700};
+  --color-gray-800: #{$gray-800};
+  --color-gray-900: #{$gray-900};
+  --color-black: #{$black};
+  
+  /* Gradients */
+  --gradient-primary: #{$gradient-primary};
+  --gradient-gold: #{$gradient-gold};
+  --gradient-teal: #{$gradient-teal};
+  --gradient-hero: #{$gradient-hero};
+  --gradient-navbar: #{$gradient-navbar};
+  --gradient-footer: #{$gradient-footer};
+  
+  /* Shadows */
+  --shadow-xs: #{$shadow-xs};
+  --shadow-sm: #{$shadow-sm};
+  --shadow-md: #{$shadow-md};
+  --shadow-lg: #{$shadow-lg};
+  --shadow-xl: #{$shadow-xl};
+  --shadow-2xl: #{$shadow-2xl};
+  --shadow-glow-blue: #{$shadow-glow-blue};
+  --shadow-glow-gold: #{$shadow-glow-gold};
+  --shadow-glow-teal: #{$shadow-glow-teal};
+  
+  /* Spacing */
+  --spacing-xs: #{$spacing-xs};
+  --spacing-sm: #{$spacing-sm};
+  --spacing-md: #{$spacing-md};
+  --spacing-lg: #{$spacing-lg};
+  --spacing-xl: #{$spacing-xl};
+  --spacing-2xl: #{$spacing-2xl};
+  --spacing-3xl: #{$spacing-3xl};
+  --spacing-4xl: #{$spacing-4xl};
+  --spacing-5xl: #{$spacing-5xl};
+  
+  /* Typography */
+  --font-primary: #{$font-primary};
+  --font-heading: #{$font-heading};
+  --font-mono: #{$font-mono};
+  
+  /* Border Radius */
+  --border-radius-sm: #{$border-radius-sm};
+  --border-radius-md: #{$border-radius-md};
+  --border-radius-lg: #{$border-radius-lg};
+  --border-radius-xl: #{$border-radius-xl};
+  --border-radius-2xl: #{$border-radius-2xl};
+  --border-radius-3xl: #{$border-radius-3xl};
+  --border-radius-full: #{$border-radius-full};
+  
+  /* Transitions */
+  --transition-fast: #{$transition-fast};
+  --transition-normal: #{$transition-normal};
+  --transition-slow: #{$transition-slow};
+  --transition-bounce: #{$transition-bounce};
+  
+  /* Component Specific */
+  --navbar-height: #{$navbar-height};
+  --navbar-height-mobile: #{$navbar-height-mobile};
+  --hero-min-height: #{$hero-min-height};
+  --card-border-radius: #{$card-border-radius};
+  --btn-border-radius: #{$btn-border-radius};
+  --form-border-radius: #{$form-border-radius};
+}
