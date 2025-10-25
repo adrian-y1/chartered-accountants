@@ -27,7 +27,7 @@ body {
   line-height: var(--line-height-normal);
   color: var(--color-gray-800);
   background-color: var(--color-white);
-  padding-top: var(--navbar-height);
+  padding-top: 0;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -121,6 +121,9 @@ p {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
   transition: all var(--transition-normal);
   border-bottom: 2px solid var(--color-accent-gold);
+  position: sticky;
+  top: 0;
+  z-index: 1030;
 }
 
 .navbar-brand {
@@ -216,7 +219,7 @@ p {
 }
 
 .nav-link:hover::before {
-  width: 70%;
+  width: 95%;
 }
 
 .nav-link.active {
@@ -225,7 +228,7 @@ p {
 }
 
 .nav-link.active::before {
-  width: 70%;
+  width: 95%;
 }
 
 /* ============================================
@@ -742,9 +745,6 @@ footer .list-unstyled li {
    RESPONSIVE DESIGN
    ============================================ */
 @media (max-width: 992px) {
-  body {
-    padding-top: var(--navbar-height-mobile);
-  }
   
   .hero-section {
     text-align: center;
