@@ -56,46 +56,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Contact form handling
     const contactForm = document.querySelector('.contact-form');
     
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(this);
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const company = document.getElementById('company').value;
-            const message = document.getElementById('message').value;
-            
-            // Basic validation
-            if (!name || !email || !message) {
-                alert('Please fill in all required fields.');
-                return;
-            }
-            
-            // Email validation
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (!emailRegex.test(email)) {
-                alert('Please enter a valid email address.');
-                return;
-            }
-            
-            // Simulate form submission (replace with actual form handling)
-            const submitButton = this.querySelector('button[type="submit"]');
-            const originalText = submitButton.textContent;
-            
-            submitButton.textContent = 'Sending...';
-            submitButton.disabled = true;
-            
-            // Simulate API call delay
-            setTimeout(() => {
-                alert('Thank you for your message! We will get back to you soon.');
-                this.reset();
-                submitButton.textContent = originalText;
-                submitButton.disabled = false;
-            }, 2000);
-        });
-    }
 
     // Navbar collapse on mobile after clicking a link
     const navbarCollapse = document.querySelector('.navbar-collapse');
